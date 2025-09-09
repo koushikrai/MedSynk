@@ -37,5 +37,32 @@ MedSynk/
 git clone https://github.com/koushikrai/MedSynk.git
 cd MedSynk
 ```
+### 2. Install dependencies
+```bash
+Frontend
+cd frontend
+npm install
+
+Backend
+cd ../backend
+npm install
+```
+3. Configure Environment Variables
+```bash
+Create a .env file inside the backend folder and add:
+
+MONGODB_URI=<Your MongoDB connection URI>
+GOOGLE_MAPS_API_KEY=<Your Google Maps API Key>
+```
+4. Run the application
+```bash
+Backend
+cd backend
+npm run dev
+
+Frontend
+cd ../frontend
+npm run dev
+```
 
 👉 Open the app at medsynk.netlify.app
