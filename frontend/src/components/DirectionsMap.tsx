@@ -31,7 +31,7 @@ const MapWithDirections = ({ userLocation, destination }) => {
 
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyC-mlH4fJ4Ej4vS6AyCt2PNcWiNnsGMnoY"
+      googleMapsApiKey="GOOGLE_MAPS_API_KEY" // Replace with your API key
       onLoad={() => setIsLoaded(true)}
     >
       <GoogleMap
