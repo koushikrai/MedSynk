@@ -36,6 +36,6 @@ MedSynk/
 ```bash
 git clone https://github.com/koushikrai/MedSynk.git
 cd MedSynk
-
+```
 
 👉 Open the app at medsynk.netlify.app
